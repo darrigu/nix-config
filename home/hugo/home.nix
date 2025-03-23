@@ -85,9 +85,9 @@
   #
   #  /etc/profiles/per-user/m3tam3re/etc/profile.d/hm-session-vars.sh
   #
-  # home.sessionVariables = {
-  #   EDITOR = "emacs";
-  # };
+  home.sessionVariables = {
+    DISPLAY = ":0";
+  };
 
   programs.alacritty = {
     enable = true;

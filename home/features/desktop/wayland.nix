@@ -14,6 +14,7 @@ in
       wl-clipboard
       wlogout
       swaybg
+      xwayland-satellite
     ];
 
     services.mako = {

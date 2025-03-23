@@ -41,7 +41,7 @@ layout {
 }
 
 spawn-at-startup "swaybg" "-i" "/home/hugo/pictures/wallpapers/puffy-stars.png"
-spawn-at-startup "waybar"
+spawn-at-startup "xwayland-satellite"
 
 prefer-no-csd
 
